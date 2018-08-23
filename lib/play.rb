@@ -44,7 +44,7 @@ def play(board)
   while(main_cond == 1)
     turn(board)
     coutner += 1
-    if(counter >= 9)
+    if(counter == 9)
       main_cond = 0
     end
   end
