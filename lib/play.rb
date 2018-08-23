@@ -37,12 +37,13 @@ end
 
 # Define your play method below
 def play(board)
+  myboard = board
   puts "Welcome to Tic Tac Toe!"
-  display_board(board)
+  display_board(myboard)
   main_cond = 1
   counter = 0
   while(main_cond == 1)
-    turn(board)
+    turn(myboard)
     coutner += 1
     if(counter >= 9)
       main_cond = 0
