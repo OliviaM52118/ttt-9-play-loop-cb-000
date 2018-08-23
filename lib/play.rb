@@ -43,7 +43,7 @@ def play(board)
   counter = 0
   while(main_cond == 1)
     turn(board)
-    coutner += 1
+    counter += 1
     if(counter == 9)
       main_cond = 0
     end
